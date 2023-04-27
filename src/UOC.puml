@@ -49,5 +49,4 @@ max_attendees : Integer
 }
 
 
-
 @enduml
