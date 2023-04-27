@@ -44,5 +44,9 @@ class Member{
 e-mail : String
 }
 
+class Conference{
+max_attendees : Integer
+}
+
 
 @enduml
