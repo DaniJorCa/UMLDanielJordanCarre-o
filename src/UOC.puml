@@ -25,4 +25,11 @@ informEvent(e : Event) : void
 register (m : Member, e : Event) : void
 }
 
+class Location{
+Description : String
+address : String
+}
+
+
+
 @enduml
