@@ -30,6 +30,12 @@ Description : String
 address : String
 }
 
+class Event{
+date : Date
+description :String
+assign(l : Location) : void
+
+}
 
 
 @enduml
