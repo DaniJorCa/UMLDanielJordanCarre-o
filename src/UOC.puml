@@ -12,4 +12,9 @@ Person -- Conference
 BoardMeeting -- BoardMember
 Event -- Member
 Location -- Event
+
+AAUOC o-- Person
+AAUOC o-- Event
+AAUOC o-- Location
+
 @enduml
