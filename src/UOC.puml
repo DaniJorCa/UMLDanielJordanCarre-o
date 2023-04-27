@@ -17,4 +17,12 @@ AAUOC o-- Person
 AAUOC o-- Event
 AAUOC o-- Location
 
+class AAUOC{
+newLocation(l : Location): void
+newEvent(e : Event) : void
+newPerson(p : Person) : void
+informEvent(e : Event) : void
+register (m : Member, e : Event) : void
+}
+
 @enduml
