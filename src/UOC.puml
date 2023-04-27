@@ -8,10 +8,10 @@ Event <|-- BoardMeeting
 Person <|-- Member
 Member <|-- BoardMember
 
-Person -- Conference
-BoardMeeting -- BoardMember
-Event -- Member
-Location -- Event
+Person -- Conference : attends To
+BoardMeeting -- BoardMember : attends To
+Event -- Member : attends To
+Location -- Event : isLocated In
 
 AAUOC o-- Person
 AAUOC o-- Event
@@ -47,6 +47,7 @@ e-mail : String
 class Conference{
 max_attendees : Integer
 }
+
 
 
 @enduml
