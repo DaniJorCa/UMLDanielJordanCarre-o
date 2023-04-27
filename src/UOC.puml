@@ -13,9 +13,9 @@ BoardMeeting -- BoardMember : attends To
 Event -- Member : attends To
 Location -- Event : isLocated In
 
-AAUOC o-- Person
-AAUOC o-- Event
-AAUOC o-- Location
+AAUOC o-- "0..*" Person
+AAUOC o-- "0..*" Event
+AAUOC o-- "0..*" Location
 
 class AAUOC{
 newLocation(l : Location): void
