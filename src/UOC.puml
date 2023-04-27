@@ -34,7 +34,10 @@ class Event{
 date : Date
 description :String
 assign(l : Location) : void
+}
 
+class Person{
+name : String
 }
 
 
