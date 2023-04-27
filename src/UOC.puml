@@ -9,8 +9,8 @@ Person <|-- Member
 Member <|-- BoardMember
 
 Person "0..*" -- "0..*" Conference : attends To
-BoardMeeting -- BoardMember : attends To
-Event -- Member : attends To
+BoardMeeting "0..*" -- "0..*" BoardMember : attends To
+Event "0..*" -- "0..*" Member : attends To
 Location "1"-- "0..*" Event : isLocated In
 
 AAUOC o-- "0..*" Person
