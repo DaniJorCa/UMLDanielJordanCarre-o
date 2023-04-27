@@ -40,5 +40,9 @@ class Person{
 name : String
 }
 
+class Member{
+e-mail : String
+}
+
 
 @enduml
