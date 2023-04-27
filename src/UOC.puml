@@ -10,4 +10,5 @@ Member <|-- BoardMember
 
 Person -- Conference
 BoardMeeting -- BoardMember
+Event -- Member
 @enduml
